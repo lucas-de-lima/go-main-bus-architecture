@@ -1,5 +1,11 @@
 # Main Bus Architecture in Go (Inspired by Factorio)
 
+[![Go Version](https://img.shields.io/badge/go-1.20+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Factorio](https://img.shields.io/badge/inspired%20by-Factorio-orange?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSIjRkY2QzAwIi8+Cjwvc3ZnPgo=)](https://factorio.com/)
+[![Concurrency](https://img.shields.io/badge/concurrency-goroutines-blue?style=for-the-badge)](https://golang.org/doc/effective_go.html#concurrency)
+[![Architecture](https://img.shields.io/badge/architecture-pattern-9cf?style=for-the-badge)](https://en.wikipedia.org/wiki/Software_architecture_pattern)
+
 This repository demonstrates a concurrency-oriented data flow pattern in Go inspired by the Main Bus concept from the game Factorio.
 
 In Factorio, a Main Bus is a corridor of parallel belts dedicated to a single resource (iron plates, copper plates, steel, etc.). Each resource has its own bus, and each bus is made of multiple parallel belts (preferably an even number) to ensure symmetry and expansion.
